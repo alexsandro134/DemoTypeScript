@@ -4,4 +4,4 @@ function greeter(person: string) {
 
 var user = "Test";
 
-console.log(greeter(user));
+document.body.innerHTML = (greeter(user));
